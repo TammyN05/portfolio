@@ -5,22 +5,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 @layer base {
-  body{
-    @apply font-[Raleway];
+  body {
+      @apply font-[Raleway];
   }
-  li{
-    @apply px-3;
-    @apply cursor-pointer;
+  li {
+      @apply px-4;
+      @apply cursor-pointer
   }
 }
 
-.content-div{
+.content-div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 250px;
 }
 
-.content-div:hover{
-  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  55%);
+.content-div:hover {
+  background-image: linear-gradient(
+      to right,
+      rgba(112, 157, 255, 0.8),
+      hsla(272, 70%, 59%, 0.8)   
+  )!important;
 }
